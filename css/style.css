@@ -1,0 +1,161 @@
+html{
+	min-height: 100%;
+}
+body{
+	
+	padding:0;
+	margin:0;
+
+}
+
+header{
+	
+}
+
+
+
+
+.filter{
+	padding-top: 30px;
+	background-color: #eeeeee;
+	border-bottom: 1px solid black;
+}
+
+.filter .row{
+	margin-bottom: 10px;
+}
+
+.filter .row input{
+	
+}
+
+.row .checkbox_block > div{
+
+}
+
+.package{
+	margin-top: 25px;
+	padding-bottom: 60px;
+}
+
+.sort{
+		border-bottom: 1px solid black;
+		padding-top: 1%;
+		color: blue;
+}
+
+.sort > div{
+	 border-right: 1px solid black;
+	 text-align: center;
+
+}
+
+.sort img{
+	width:40px;
+}
+
+.top_perday_section{
+}
+
+.top_perday_section .card{
+	
+}
+
+.top_perday{
+	padding-bottom: 25px;
+	border-bottom: 1px solid grey;
+}
+
+.top_perday_block_title{
+	
+	text-align: center;
+	border: 1px solid grey;
+	border-top:none;
+	opacity: 0.7;
+}
+
+.card-top{
+	text-align:center;
+	color: black;
+	font-size: 18px;
+	padding: 6px;
+}
+.card-end{
+	text-align:center;
+	background: #0089cd;
+	color: white;
+	font-size: 18px;
+	padding: 6px;
+}
+
+.top_perday_offer_block .card-title{
+	text-align: center;
+}
+
+.last_news{
+	text-align: center;
+}
+
+.news_one_block{
+	
+	padding-bottom: 15px;
+	border-bottom: 1px solid black;
+}
+
+.news_one_block img{
+	
+	width: inherit;
+}
+.card img{
+	width: inherit;
+	height: 163px;
+}
+
+.info_sort_bar{
+
+	background-color: #153e4d;
+	color: white;
+	font-family: 'Open Sans';
+	box-shadow: 0 0 20px rgba(0,0,0.5);
+
+}
+
+.main_offer_block{
+
+
+}
+
+.offer_block{
+	padding-bottom: 15px;
+	border-bottom: 1px dashed grey;
+}
+
+.container{
+}
+
+.bg_snow{
+	background-color: snow;
+	box-shadow: 0 0 20px rgba(0,0,0.5);
+}
+
+.main_offer_block img {
+}
+
+.offer_photo{
+		width: inherit;
+}
+
+.price {
+	font-family: 'Open Sans';
+	font-size: 20px;
+	word-spacing: 5px;
+	line-height: 22px;
+	color: snow;
+	text-align: center;
+	background-color: #1bc744;
+}
+
+
+
+
+
