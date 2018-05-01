@@ -116,7 +116,6 @@ header{
 	background-color: #153e4d;
 	color: white;
 	font-family: 'Open Sans';
-	box-shadow: 0 0 20px rgba(0,0,0.5);
 
 }
 
@@ -135,7 +134,6 @@ header{
 
 .bg_snow{
 	background-color: snow;
-	box-shadow: 0 0 20px rgba(0,0,0.5);
 }
 
 .main_offer_block img {
