@@ -5,7 +5,11 @@ body{
 	
 	padding:0;
 	margin:0;
-
+background: rgb(208,213,223);
+background: -moz-linear-gradient(45deg, rgba(208,213,223,1) 0%, rgba(234,236,242,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(208,213,223,1) 0%,rgba(234,236,242,1) 100%);
+background: linear-gradient(45deg, rgba(208,213,223,1) 0%,rgba(234,236,242,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0d5df', endColorstr='#eaecf2',GradientType=1 );
 }
 
 header{
@@ -13,7 +17,10 @@ header{
 }
 
 
-
+.back{
+	background-color: #00afee;
+	color: #effafe;
+}
 
 .filter{
 	padding-top: 30px;
@@ -58,7 +65,7 @@ header{
 }
 
 .top_perday_section .card{
-	
+	border: none;
 }
 
 .top_perday{
@@ -87,7 +94,6 @@ header{
 	font-size: 18px;
 	padding: 6px;
 }
-
 .top_perday_offer_block .card-title{
 	text-align: center;
 }
@@ -107,8 +113,7 @@ header{
 	width: inherit;
 }
 .card img{
-	width: inherit;
-	height: 163px;
+	
 }
 
 .info_sort_bar{
@@ -127,6 +132,9 @@ header{
 .offer_block{
 	padding-bottom: 15px;
 	border-bottom: 1px dashed grey;
+}
+.offer_top{
+	text-shadow: 0px 1px 0.2px green;
 }
 
 .container{
@@ -154,6 +162,18 @@ header{
 }
 
 
+.param_filter input{
 
+
+background: rgb(239,240,240);
+background: -moz-linear-gradient(left, rgba(239,240,240,1) 0%, rgba(209,211,212,1) 100%);
+background: -webkit-linear-gradient(left, rgba(239,240,240,1) 0%,rgba(209,211,212,1) 100%);
+background: linear-gradient(to right, rgba(239,240,240,1) 0%,rgba(209,211,212,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff0f0', endColorstr='#d1d3d4',GradientType=1 );
+}
+
+.param_filter input:focus{
+	border: none;
+}
 
 
